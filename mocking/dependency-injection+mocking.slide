@@ -50,6 +50,6 @@ There are tools, such as gomock to generate code that satisfies a known service 
 
 .code pkg/db/user_store.go
 
-* Example Test
+* Example Test Using gomock
 
 .code user_store_test.go /^func TestUserStore/,/^}/
