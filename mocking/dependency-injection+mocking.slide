@@ -31,7 +31,7 @@ Mocking is the act of implementing a service's interface with a "dummy" implemen
 
 * Custom Mocks
 
-The simplest way to mock a service is to create a hand-crafted object that implements its interface, inject it into the component your testing.
+The simplest way to mock a service is to create a hand-crafted object that implements its interface and inject it into the component your testing.
 
 - Very flexible testing, as you can define the behavior of your mock the same as any other service.
 - Time consuming, as you have to write a full mock for each dependency.
